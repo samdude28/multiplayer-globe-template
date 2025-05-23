@@ -3,6 +3,10 @@ main = "src/server/index.ts"
 compatibility_date = "2025-04-01"
 upload_source_maps = true
 
+# 👇 Add your route and zone_id here, outside of [observability]
+route = "nashsunstay.com/*"
+zone_id = "YOUR_ZONE_ID_HERE"
+
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["Globe"]
@@ -20,7 +24,3 @@ bindings = [
 
 [observability]
 enabled = true
-
-# Add these lines:
-route = "nashsunstay.com/*"
-zone_id = "37898bf39c4951e9e8ca14d0c71b3729"
