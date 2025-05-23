@@ -1,6 +1,6 @@
-compatibility_date = "2025-04-01"
-main = "src/server/index.ts"
 name = "multiplayer-globe-template"
+main = "src/server/index.ts"
+compatibility_date = "2025-04-01"
 
 [[migrations]]
 tag = "v1"
