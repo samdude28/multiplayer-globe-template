@@ -1,6 +1,7 @@
 name = "multiplayer-globe-template"
 main = "src/server/index.ts"
 compatibility_date = "2025-04-01"
+upload_source_maps = true
 
 [[migrations]]
 tag = "v1"
@@ -20,4 +21,6 @@ bindings = [
 [observability]
 enabled = true
 
-upload_source_maps = true
+# Add these lines:
+route = "nashsunstay.com/*"
+zone_id = "37898bf39c4951e9e8ca14d0c71b3729"
