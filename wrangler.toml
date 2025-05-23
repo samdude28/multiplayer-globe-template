@@ -5,7 +5,7 @@ upload_source_maps = true
 
 # 👇 Add your route and zone_id here, outside of [observability]
 route = "nashsunstay.com/*"
-zone_id = "YOUR_ZONE_ID_HERE"
+zone_id = "37898bf39c4951e9e8ca14d0c71b3729"
 
 [[migrations]]
 tag = "v1"
